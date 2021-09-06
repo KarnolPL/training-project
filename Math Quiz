@@ -3,45 +3,45 @@ print('-' * 30)
 name = input('Whats your name? ')
 print(f'Hi {name}!!')
 decision = input('Do you wanna start? ')
-if decision.lower() != yes:
+if decision.lower() != 'yes':
     quit()
 print('Excellent!! Good luck!!')  
 score = 0
 
-answer = input('What is result of 2 + 2')
-if answer == 4:
+answer = input('What is result of 2 + 2 ')
+if answer == '4':
     print('Correct!')
     score += 1
 else:
     print('Not correct!')
 
-answer = input('What is result of 10 / 5')
-if answer == 2:
+answer = input('What is result of 10 / 5 ')
+if answer == '2':
     print('Correct!')
     score += 1
 else:
     print('Not correct!')
     
-answer = input('What is result of 3 * 5')
-if answer == 15:
+answer = input('What is result of 3 * 5 ')
+if answer == '15':
     print('Correct!')
     score += 1
 else:
     print('Not correct!')
 
-answer = input('What is result of 21 - 7')
-if answer == 14:
+answer = input('What is result of 21 - 7 ')
+if answer == '14':
     print('Correct!')
     score += 1
 else:
     print('Not correct!')
     
-answer = input('What is result of 2 + 2 * 2')
-if answer == 6:
+answer = input('What is result of 2 + 2 * 2 ')
+if answer == '6':
     print('Correct!')
     score += 2
 else:
     print('Not correct!')
 
 print(f'Good job! Your score is {score}')
-print(f'This is {(score / 2) * 100}.:2f')
+print(f'This is {((score / 6) * 100):.2f}%.')
