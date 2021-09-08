@@ -1,0 +1,6 @@
+import random
+
+pass_len = int(input('What length password you wanna generate? '))
+all = "1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&*()"
+password = "".join(random.sample(all, pass_len))
+print(password)
