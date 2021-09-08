@@ -1,0 +1,9 @@
+import random
+
+while True:
+    print('Do you wanna dice? for Yes 1 for No 2')
+    player = int(input('What you decide? '))
+    if player == 1:
+        print(random.randint(1, 6))
+    else:
+        break
